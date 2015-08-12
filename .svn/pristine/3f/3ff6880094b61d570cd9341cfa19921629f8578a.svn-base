@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta content="width=device-width,user-scalable=no" name="viewport">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="fullscreen=yes,preventMove=no" name="ML-Config">
+	<title>Team Reports</title>
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/react.css">
+</head>
+<body>
+
+	<!-- header begin -->
+	<div class="header">
+		<div class="header_top">
+			<a href="#" class="header_logo"><img src="images/header_logo.png" alt=""></a>
+			<div class="header_user">
+				<a href="#">Admin01</a> |
+				<a href="#">My Zone</a> |
+				<a href="#">中</a>
+			</div>
+		</div>
+
+		<div class="header_nav">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li class="active"><a href="#">INTRO</a></li>
+				<li><a href="#">LEARN</a></li>
+				<li><a href="#">REPORT</a></li>
+				<li><a href="#">BBS</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+		</div>
+
+		<div class="header_locatioin">Your Current Location:BBS</div>
+	</div>
+	<!-- header over -->
+	
+
+
+	<!-- main begin -->
+	<div class="main cs">
+		
+		<!-- sidebar begin -->
+		<div class="sidebar">
+			
+			<div class="sidebar_nav">
+				<span class="sidebar_nav_arrow">&nbsp;</span>
+				<a href="learning_map.html"><i class="icon icon-map"></i>Learning Map</a>
+				<a href="edoc_list.html"><i class="icon icon-word"></i>Edoc List</a>
+				<a href="learning_forum.html"><i class="icon icon-message4"></i>Learning Forum</a>
+				<a href="course_report.html"><i class="icon icon-book2"></i>Course Report</a>
+				<a href="student_reports.html"><i class="icon icon-date"></i>Student Reports</a>
+				<a href="rich_text.html"><i class="icon icon-book4"></i>Rich Text</a>
+				<a href="lms_list.html"><i class="icon icon-book3"></i>LMS List</a>
+				<a href="course_study.html"><i class="icon icon-book"></i>Course Study</a>
+				<a href="project_introduction.html"><i class="icon icon-book5"></i>Project Introduction</a>
+				<a href="personal_report.html"><i class="icon icon-user"></i>Personal Report</a>
+				<a class="active" href="team_reports.html"><i class="icon icon-user2"></i>Team Reports</a>
+				<a href="faq.html"><i class="icon icon-question"></i>FAQ</a>
+			</div>
+
+			<div class="sidebar_dynamics">
+				<h2><i class="icon icon-bell"></i>Learning dynamics</h2>
+				<ul>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<!-- header over -->
+		
+
+		
+		<!-- content begin -->
+		<div class="content">
+			
+			<h2><i class="icon icon-user2"></i>Team Reports</h2>
+			<ul class="content_report">
+				<li>
+					<cite style="background: #4086cb;">
+						<h3>20%</h3>
+						<p>Complete Courses Rate</p>
+					</cite>
+				</li>
+				<li>
+					<cite style="background: #71d6ee;">
+						<h3>15%</h3>
+						<p>Complete Exams Rate</p>
+					</cite>
+				</li>
+				<li>
+					<cite style="background: #40bfbc;">
+						<h3>20%</h3>
+						<p>Complete Courses Rate</p>
+					</cite>
+				</li>
+				<li>
+					<cite style="background: #fd8c50;">
+						<h3>15%</h3>
+						<p>Complete Exams Rate</p>
+					</cite>
+				</li>
+			</ul>
+
+
+			<h2 class="color_purple" ><i class="icon icon-editor2"  ></i>Learning record</h2>
+			<table border="0" cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<td>Account</td>
+						<td>Name</td>
+						<td>Mail</td>
+						<td>Lessons completion</td>
+						<td>Several complete exam</td>
+						<td class="hide_min">Average exam</td>
+						<td class="hide_min">Detailed</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>elearning18</td>
+						<td>Nicole Kidman</td>
+						<td>elearning18 @yahoo.cn</td>
+						<td>10</td>
+						<td>10</td>
+						<td class="hide_min">95</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<td>elearning18</td>
+						<td>Nicole Kidman</td>
+						<td>elearning18 @yahoo.cn</td>
+						<td>10</td>
+						<td>10</td>
+						<td class="hide_min">95</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<td>elearning18</td>
+						<td>Nicole Kidman</td>
+						<td>elearning18 @yahoo.cn</td>
+						<td>10</td>
+						<td>10</td>
+						<td class="hide_min">95</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<td>elearning18</td>
+						<td>Nicole Kidman</td>
+						<td>elearning18 @yahoo.cn</td>
+						<td>10</td>
+						<td>10</td>
+						<td class="hide_min">95</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<td>elearning18</td>
+						<td>Nicole Kidman</td>
+						<td>elearning18 @yahoo.cn</td>
+						<td>10</td>
+						<td>10</td>
+						<td class="hide_min">95</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<td>elearning18</td>
+						<td>Nicole Kidman</td>
+						<td>elearning18 @yahoo.cn</td>
+						<td>10</td>
+						<td>10</td>
+						<td class="hide_min">95</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<td>elearning18</td>
+						<td>Nicole Kidman</td>
+						<td>elearning18 @yahoo.cn</td>
+						<td>10</td>
+						<td>10</td>
+						<td class="hide_min">95</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<td>elearning18</td>
+						<td>Nicole Kidman</td>
+						<td>elearning18 @yahoo.cn</td>
+						<td>10</td>
+						<td>10</td>
+						<td class="hide_min">95</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<td>elearning18</td>
+						<td>Nicole Kidman</td>
+						<td>elearning18 @yahoo.cn</td>
+						<td>10</td>
+						<td>10</td>
+						<td class="hide_min">95</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<td>elearning18</td>
+						<td>Nicole Kidman</td>
+						<td>elearning18 @yahoo.cn</td>
+						<td>10</td>
+						<td>10</td>
+						<td class="hide_min">95</td>
+						<td class="hide_min"></td>
+					</tr>
+
+				</tbody>
+			</table>
+
+			<div class="content_page">
+				<a href="#">Prev</a>
+				<a href="#">1</a>
+				<a class="active" href="#">2</a>
+				<a href="#">Prev</a>
+			</div>
+
+
+			<br><br>
+			<h2 class="color_blue" ><i class="icon icon-editor2"  ></i>Course learning record</h2>
+			<table class="content_percent_inside" border="0" cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<th>Course Title</th>
+						<td>Completion rate</td>
+						<td>Complete The number</td>
+						<td class="hide_min">Detailed</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>LTE network transport network</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:20%"></b><em>20% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+
+				</tbody>
+			</table>
+
+
+			<br><br>
+			<h2 class="color_orchid" ><i class="icon icon-editor2"  ></i>Record Exam Study</h2>
+			<table class="content_percent_inside content_percent_orchid" border="0" cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<th>Exam</th>
+						<td>Points rate</td>
+						<td>Completion rate</td>
+						<td>Complete The number</td>
+						<td class="hide_min">Detailed</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>LTE network transport network</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:0%"></b><em>0% Complete</em></span></td>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td class="hide_min"></td>
+					</tr>
+
+				</tbody>
+			</table>
+
+			<img src="images/team_report_pic.jpg" alt="" style="width:100%;">
+
+
+			<br><br>
+			<h2 class="color_orange" ><i class="icon icon-user2"  ></i>Team of reviews</h2>
+
+			<dl class="content_teamreview">
+				<dt><i class="icon icon-chart"></i>Examinations analyze</dt>
+				<dd>LTE core network is better</dd>
+				<dd>LTE wireless network in general</dd>
+				<dd>Poor LTE backhaul</dd>
+
+				<dt><i class="icon icon-date2"></i>Study Advice</dt>
+				<dd>Recommend learning courses LTE Core Network</dd>
+				<dd>Recommend learning courses LTE wireless network</dd>
+				<dd>Recommend learning courses LTE backhaul</dd>
+
+			</dl>
+		</div>
+		<!-- content over -->
+		
+	</div>
+	<!-- main over -->
+	
+
+
+	
+	<!-- footer begin -->
+	<div class="footer">Copyright © Huawei Technologies Co., Ltd. 1998-2015. All rights reserved. (Guangdong No. A2-20044005 -6)</div>
+	<!-- footer over -->
+
+
+
+		
+
+
+	<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta content="width=device-width,user-scalable=no" name="viewport">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="fullscreen=yes,preventMove=no" name="ML-Config">
+	<title>Personal Report</title>
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/react.css">
+</head>
+<body>
+
+	<!-- header begin -->
+	<div class="header">
+		<div class="header_top">
+			<a href="#" class="header_logo"><img src="images/header_logo.png" alt=""></a>
+			<div class="header_user">
+				<a href="#">Admin01</a> |
+				<a href="#">My Zone</a> |
+				<a href="#">中</a>
+			</div>
+		</div>
+
+		<div class="header_nav">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li class="active"><a href="#">INTRO</a></li>
+				<li><a href="#">LEARN</a></li>
+				<li><a href="#">REPORT</a></li>
+				<li><a href="#">BBS</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+		</div>
+
+		<div class="header_locatioin">Your Current Location:BBS</div>
+	</div>
+	<!-- header over -->
+	
+
+
+	<!-- main begin -->
+	<div class="main cs">
+		
+		<!-- sidebar begin -->
+		<div class="sidebar">
+			
+			<div class="sidebar_nav">
+				<span class="sidebar_nav_arrow">&nbsp;</span>
+				<a href="learning_map.html"><i class="icon icon-map"></i>Learning Map</a>
+				<a href="edoc_list.html"><i class="icon icon-word"></i>Edoc List</a>
+				<a href="learning_forum.html"><i class="icon icon-message4"></i>Learning Forum</a>
+				<a href="course_report.html"><i class="icon icon-book2"></i>Course Report</a>
+				<a href="student_reports.html"><i class="icon icon-date"></i>Student Reports</a>
+				<a href="rich_text.html"><i class="icon icon-book4"></i>Rich Text</a>
+				<a href="lms_list.html"><i class="icon icon-book3"></i>LMS List</a>
+				<a href="course_study.html"><i class="icon icon-book"></i>Course Study</a>
+				<a href="project_introduction.html"><i class="icon icon-book5"></i>Project Introduction</a>
+				<a class="active" href="personal_report.html"><i class="icon icon-user"></i>Personal Report</a>
+				<a href="team_reports.html"><i class="icon icon-user2"></i>Team Reports</a>
+				<a href="faq.html"><i class="icon icon-question"></i>FAQ</a>
+			</div>
+
+			<div class="sidebar_dynamics">
+				<h2><i class="icon icon-bell"></i>Learning dynamics</h2>
+				<ul>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<!-- header over -->
+		
+
+		
+		<!-- content begin -->
+		<div class="content">
+			
+			<h2><i class="icon icon-user"></i>Personal Report</h2>
+			<ul class="content_report">
+				<li>
+					<cite>
+						<h3>20%</h3>
+						<p>Complete Courses Rate</p>
+					</cite>
+				</li>
+				<li>
+					<cite style="background: #40bfbc;">
+						<h3>15%</h3>
+						<p>Complete Exams Rate</p>
+					</cite>
+				</li>
+			</ul>
+
+
+			<h2 class="color_green" ><i class="icon icon-editor2"  ></i>Course Learning History</h2>
+			<table class="content_map" border="0" cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<th>Crouse</th>
+						<td>Last Learning Time</td>
+						<td>Progress</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>4G/VoLTE Voice service4G/VoLTE Voice service4G/VoLTE Voice service (WBT)</th>
+						<td>2015-05-22 16:45</td>
+						<td><a href="#" class="btn btn_orange">Review</a></td>
+					</tr>
+					<tr>
+						<th>LTE wireless network equipment (WBT)</th>
+						<td>2015-05-22 16:45</td>
+						<td><a href="#" class="btn btn_blue">In Progress</a></td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network (WBT)</th>
+						<td>2015-05-22 16:45</td>
+						<td><a href="#" class="btn btn_green">Start</a></td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network (WBT)</th>
+						<td>2015-05-22 16:45</td>
+						<td><a href="#" class="btn btn_green">Start</a></td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network (WBT)</th>
+						<td>2015-05-22 16:45</td>
+						<td><a href="#" class="btn btn_green">Start</a></td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network (WBT)</th>
+						<td>2015-05-22 16:45</td>
+						<td><a href="#" class="btn btn_green">Start</a></td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network (WBT)</th>
+						<td>2015-05-22 16:45</td>
+						<td><a href="#" class="btn btn_green">Start</a></td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network (WBT)</th>
+						<td>2015-05-22 16:45</td>
+						<td><a href="#" class="btn btn_green">Start</a></td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network (WBT)</th>
+						<td>2015-05-22 16:45</td>
+						<td><a href="#" class="btn btn_green">Start</a></td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network (WBT)</th>
+						<td>2015-05-22 16:45</td>
+						<td><a href="#" class="btn btn_green">Start</a></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<br><br>
+			<h2 class="color_purple" ><i class="icon icon-editor2"  ></i>Exam Learning History</h2>
+			<table border="0" cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<th>Exam</th>
+						<td>Test Times</td>
+						<td>Highest Scores</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network</th>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+			<br><br>
+			<h2 class="color_orange" ><i class="icon icon-user2"  ></i>Learnert Achievement Report</h2>
+			<img src="images/personal_report_pic.jpg" alt="" style="width:100%;">
+
+			<table style="text-align: left;" border="0" cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<th>Module</th>
+						<th>Including curriculum</th>
+						<th>Knowledge Point</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="4" style="background: #fef3e8;">Module 1: <br>LTE wireless Fundamentals</td>
+						<td>End LTE network introduction</td>
+						<td rowspan="4">
+							Mobile network evolution trend, <br>
+							LTE network architecture, <br>
+							LTE terminal, LTE business, <br>
+							LTE new applications;
+						</td>
+					</tr>
+					<tr><td>Wireless Communication Technology</td></tr>
+					<tr><td>LTE key technology introduction</td></tr>
+					<tr><td>LTE and 2G 3G interoperability</td></tr>
+					<tr>
+						<td style="background: #f3f9ec;">Module 2: <br>LTE wireless equipment knowledge</td>
+						<td>LTE wireless network equipment</td>
+						<td>LTE site home equipment, ancillary equipment;</td>
+					</tr>
+					<tr>
+						<td style="background: #e5f6f6;">Module 3: <br>LTE EPC Fundamentals</td>
+						<td>LTE wireless packet network</td>
+						<td>
+							EPC network architecture and interface, typical <br>
+							business processes, network roaming, network <br>
+							identification, EPC major equipment Introduction.
+						</td>
+					</tr>
+					<tr>
+						<td style="background: #f9eae8;">Module 4: <br>VOLTE Fundamentals</td>
+						<td>4G era of voice services --- VoLTE</td>
+						<td>VoLTE introduction, VoLTE business processes, CSFB, SRVCC, VoLTE service deployment.</td>
+					</tr>
+					<tr>
+						<td style="background: #e6f2f9;" rowspan="2">Module 5: <br>LTE IP Fundamentals</td>
+						<td>LTE network IP knowledge</td>
+						<td>
+							LTE network in the demand for IP's, <br>
+							LTE network IP address, VLAN, <br>
+							routing protocols, VPN, QOS application;
+						</td>
+					</tr>
+					<tr><td>LTE network backhaul</td></tr>
+					<tr>
+						<td style="background: #f2f0f7;">Module 6: <br>LTE transmission Fundamentals</td>
+						<td>LTE network transport network</td>
+						<td>Module 6: LTE transmission Fundamentals</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- content over -->
+		
+	</div>
+	<!-- main over -->
+	
+
+
+	
+	<!-- footer begin -->
+	<div class="footer">Copyright © Huawei Technologies Co., Ltd. 1998-2015. All rights reserved. (Guangdong No. A2-20044005 -6)</div>
+	<!-- footer over -->
+
+
+
+		
+
+
+	<script src="js/script.js"></script>
+</body>
+</html>

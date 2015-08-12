@@ -1,0 +1,35 @@
+	<div class="dialog_box">
+		<div class="dialog" id="dialog">
+			<h2>Online Feedback <i class="icon icon-close"></i></h2>
+			<p>
+				1，Form with * are required. <br>
+				2，Please fill in the phone and Email information. <br>
+				3，More information you can directly send Email to elearning@huawei.com.
+			</p>
+			<form action="#">
+				<label><span><em>*</em>Name</span> <input type="text" value=""></label>
+				<label><span><em>*</em>Phone</span> <input type="text" value=""></label>
+				<label><span><em>*</em>E-mail</span> <input type="text" value=""></label>
+				<label class="dialog_select"><span><em>*</em>Feedback type</span>
+					<select name="" >
+						<option value="1">Please Choose</option>
+						<option value="1">Please Choose</option>
+						<option value="1">Please Choose</option>
+						<option value="1">Please Choose</option>
+					</select>
+				</label>
+				<div class="dialog_textarea">
+					<span>Description</span>
+					<textarea name=""  ></textarea>
+					<p><em>0</em>/500</p>
+				</div>
+				<label>
+					<span>Add annex</span> 
+					<div class="dialog_file"><b>&nbsp;</b><input type="file" name="" ><i class="icon icon-up"></i></div>
+				</label>
+
+				<div class="dialog_submit"><button stype="submit">Message</button></div>
+				<br>
+			</form>
+		</div>
+	</div>

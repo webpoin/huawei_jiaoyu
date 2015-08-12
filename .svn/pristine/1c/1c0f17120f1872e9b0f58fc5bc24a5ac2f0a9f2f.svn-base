@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta content="width=device-width,user-scalable=no" name="viewport">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="fullscreen=yes,preventMove=no" name="ML-Config">
+	<title>Learning Forum</title>
+
+	<!-- css -->
+	<link href="js/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/react.css">
+</head>
+<body>
+
+	<!-- header begin -->
+	<div class="header">
+		<div class="header_top">
+			<a href="#" class="header_logo"><img src="images/header_logo.png" alt=""></a>
+			<div class="header_user">
+				<a href="#">Admin01</a> |
+				<a href="#">My Zone</a> |
+				<a href="#">中</a>
+			</div>
+		</div>
+
+		<div class="header_nav">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li class="active"><a href="#">INTRO</a></li>
+				<li><a href="#">LEARN</a></li>
+				<li><a href="#">REPORT</a></li>
+				<li><a href="#">BBS</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+		</div>
+
+		<div class="header_locatioin">Your Current Location:BBS</div>
+	</div>
+	<!-- header over -->
+	
+
+
+	<!-- main begin -->
+	<div class="main cs">
+		
+		<!-- sidebar begin -->
+		<div class="sidebar">
+			
+			<div class="sidebar_nav">
+				<span class="sidebar_nav_arrow">&nbsp;</span>
+				<a href="learning_map.html"><i class="icon icon-map"></i>Learning Map</a>
+				<a href="edoc_list.html"><i class="icon icon-word"></i>Edoc List</a>
+				<a class="active" href="learning_forum.html"><i class="icon icon-message4"></i>Learning Forum</a>
+				<a href="course_report.html"><i class="icon icon-book2"></i>Course Report</a>
+				<a href="student_reports.html"><i class="icon icon-date"></i>Student Reports</a>
+				<a href="rich_text.html"><i class="icon icon-book4"></i>Rich Text</a>
+				<a href="lms_list.html"><i class="icon icon-book3"></i>LMS List</a>
+				<a href="course_study.html"><i class="icon icon-book"></i>Course Study</a>
+				<a href="project_introduction.html"><i class="icon icon-book5"></i>Project Introduction</a>
+				<a href="personal_report.html"><i class="icon icon-user"></i>Personal Report</a>
+				<a href="team_reports.html"><i class="icon icon-user2"></i>Team Reports</a>
+				<a href="faq.html"><i class="icon icon-question"></i>FAQ</a>
+			</div>
+
+			<div class="sidebar_dynamics">
+				<h2><i class="icon icon-bell"></i>Learning dynamics</h2>
+				<ul>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<!-- header over -->
+		
+
+		
+		<!-- content begin -->
+		<div class="content content_forum">
+			
+			<h2><i class="icon icon-message4"></i>Learning Forum</h2>
+
+			<div class="content_forum_man">
+				<dl>
+					<dt><a href="learning_forum_art.html"><img src="images/content_forum_man.jpg" alt=""><cite><i class="icon icon-message2"></i>Ask Him</cite></a></dt>
+					<dd>
+						<strong>Bruce Lee</strong>
+						Senior Network <br>
+						Senior Network Engineer
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="learning_forum_art.html"><img src="images/content_forum_man.jpg" alt=""><cite><i class="icon icon-message2"></i>Ask Him</cite></a></dt>
+					<dd>
+						<strong>Bruce Lee2</strong>
+						Senior Network <br>
+						Senior Network Engineer
+					</dd>
+				</dl>
+			</div>
+
+			<form action="" >
+				<a href="learning_forum_art.html" class="fr content_forum_posts js-opendialog">发帖</a>
+
+				<select name="" >
+					<option value="">全部问题</option>
+					<option value="">最新</option>
+					<option value="">最热</option>
+				</select>
+				<select name="" >
+					<option value="">我参与的</option>
+					<option value="">最新</option>
+					<option value="">最热</option>
+				</select>
+				<cite>
+					<input name="" type="text" value="搜索问题">
+					<button type="submit" ><i class="icon icon-iconsearch"></i></button>
+				</cite>
+			</form>
+
+			<div class="content_forum_li">
+				<ul>
+					<li class="hot">
+						<h6>
+							<i class="icon icon-message"><b>20</b></i><br>
+							<i class="icon icon-eye"></i>186
+						</h6>
+						<h5><em>18:56</em>2015/05/26</h5>
+						<h4>
+							<span><i class="icon icon-user3"></i>Jim </span>
+							<span><i class="icon icon-message3"></i>Bruce Lee</span>
+						</h4>
+						<cite>
+							<h3><a href="learning_forum_art.html">About LTE Net, Is there an advantage in the United State for use? </a></h3>
+							<p><a href="learning_forum_art.html">This Qustion is confusing me for a long time, please let me know the result.</a></p>
+						</cite>
+					</li>
+					<li class="hot">
+						<h6>
+							<i class="icon icon-message"><b>20</b></i><br>
+							<i class="icon icon-eye"></i>186
+							<h5><em>18:56</em>2015/05/26</h5>
+							<h4>
+								<span><i class="icon icon-user3"></i>Jim </span>
+								<span><i class="icon icon-message3"></i>Bruce Lee</span>
+							</h4>
+						<cite>
+						<td>
+							<h3><a href="learning_forum_art.html">About LTE Net, Is there an  in the United State for use?</a></h3>
+							<p><a href="learning_forum_art.html">This Qustion is confusing me for a long time, please let me know the result.</a></p>
+						</cite>
+					</li>
+					<li class="hot">
+						<h6>
+							<i class="icon icon-message"><b>20</b></i><br>
+							<i class="icon icon-eye"></i>186
+						</h6>
+						<h5><em>18:56</em>2015/05/26</h5>
+						<h4>
+							<span><i class="icon icon-user3"></i>Jim </span>
+							<span><i class="icon icon-message3"></i>Bruce Lee</span>
+						</h4>
+						<cite>
+							<h3><a href="learning_forum_art.html">About LTE Net, Is there an advantage in the United State for use? </a></h3>
+							<p><a href="learning_forum_art.html">This Qustion is confusing me for a long time, please let me know the result.</a></p>
+						</cite>
+					</li>
+					<li class="info">
+						<h6>
+							<i class="icon icon-message"><b>20</b></i><br>
+							<i class="icon icon-eye"></i>186
+						</h6>
+						<h5><em>18:56</em>2015/05/26</h5>
+						<h4>
+							<span><i class="icon icon-user3"></i>Jim </span>
+							<span><i class="icon icon-message3"></i>Bruce Lee</span>
+						</h4>
+						<cite>
+							<h3><a href="learning_forum_art.html">About LTE Net, Is there an advantage in the United State for use? </a></h3>
+							<p><a href="learning_forum_art.html">This Qustion is confusing me for a long time, please let me know the result.</a></p>
+						</cite>
+					</li>
+
+
+					<li>
+						<h6>
+							<i class="icon icon-message"><b>20</b></i><br>
+							<i class="icon icon-eye"></i>186
+						</h6>
+						<h5><em>18:56</em>2015/05/26</h5>
+						<h4>
+							<span><i class="icon icon-user3"></i>Jim </span>
+							<span><i class="icon icon-message3"></i>Bruce Lee</span>
+						</h4>
+						<cite>
+							<h3><a href="learning_forum_art.html">About LTE Net, Is there an advantage in the United State for use? </a></h3>
+							<p><a href="learning_forum_art.html">This Qustion is confusing me for a long time, please let me know the result.</a></p>
+						</cite>
+					</li>
+					<li>
+						<h6>
+							<i class="icon icon-message"><b>20</b></i><br>
+							<i class="icon icon-eye"></i>186
+						</h6>
+						<h5><em>18:56</em>2015/05/26</h5>
+						<h4>
+							<span><i class="icon icon-user3"></i>Jim </span>
+							<span><i class="icon icon-message3"></i>Bruce Lee</span>
+						</h4>
+						<cite>
+							<h3><a href="learning_forum_art.html">About LTE Net, Is there an advantage in the United State for use? </a></h3>
+							<p><a href="learning_forum_art.html">This Qustion is confusing me for a long time, please let me know the result.</a></p>
+						</cite>
+					</li>
+					<li>
+						<h6>
+							<i class="icon icon-message"><b>20</b></i><br>
+							<i class="icon icon-eye"></i>186
+						</h6>
+						<h5><em>18:56</em>2015/05/26</h5>
+						<h4>
+							<span><i class="icon icon-user3"></i>Jim </span>
+							<span><i class="icon icon-message3"></i>Bruce Lee</span>
+						</h4>
+						<cite>
+							<h3><a href="learning_forum_art.html">About LTE Net, Is there an advantage in the United State for use? </a></h3>
+							<p><a href="learning_forum_art.html">This Qustion is confusing me for a long time, please let me know the result.</a></p>
+						</cite>
+					</li>
+					<li>
+						<h6>
+							<i class="icon icon-message"><b>20</b></i><br>
+							<i class="icon icon-eye"></i>186
+						</h6>
+						<h5><em>18:56</em>2015/05/26</h5>
+						<h4>
+							<span><i class="icon icon-user3"></i>Jim </span>
+							<span><i class="icon icon-message3"></i>Bruce Lee</span>
+						</h4>
+						<cite>
+							<h3><a href="learning_forum_art.html">About LTE Net, Is there an advantage in the United State for use? </a></h3>
+							<p><a href="learning_forum_art.html">This Qustion is confusing me for a long time, please let me know the result.</a></p>
+						</cite>
+					</li>
+					<li>
+						<h6>
+							<i class="icon icon-message"><b>20</b></i><br>
+							<i class="icon icon-eye"></i>186
+						</h6>
+						<h5><em>18:56</em>2015/05/26</h5>
+						<h4>
+							<span><i class="icon icon-user3"></i>Jim </span>
+							<span><i class="icon icon-message3"></i>Bruce Lee</span>
+						</h4>
+						<cite>
+							<h3><a href="learning_forum_art.html">About LTE Net, Is there an advantage in the United State for use? </a></h3>
+							<p><a href="learning_forum_art.html">This Qustion is confusing me for a long time, please let me know the result.</a></p>
+						</cite>
+					</li>
+					<li>
+						<h6>
+							<i class="icon icon-message"><b>20</b></i><br>
+							<i class="icon icon-eye"></i>186
+						</h6>
+						<h5><em>18:56</em>2015/05/26</h5>
+						<h4>
+							<span><i class="icon icon-user3"></i>Jim </span>
+							<span><i class="icon icon-message3"></i>Bruce Lee</span>
+						</h4>
+						<cite>
+							<h3><a href="learning_forum_art.html">About LTE Net, Is there an advantage in the United State for use? </a></h3>
+							<p><a href="learning_forum_art.html">This Qustion is confusing me for a long time, please let me know the result.</a></p>
+						</cite>
+					</li>
+					<li>
+						<h6>
+							<i class="icon icon-message"><b>20</b></i><br>
+							<i class="icon icon-eye"></i>186
+						</h6>
+						<h5><em>18:56</em>2015/05/26</h5>
+						<h4>
+							<span><i class="icon icon-user3"></i>Jim </span>
+							<span><i class="icon icon-message3"></i>Bruce Lee</span>
+						</h4>
+						<cite>
+							<h3><a href="learning_forum_art.html">About LTE Net, Is there an advantage in the United State for use? </a></h3>
+							<p><a href="learning_forum_art.html">This Qustion is confusing me for a long time, please let me know the result.</a></p>
+						</cite>
+					</li>
+					<li>
+						<h6>
+							<i class="icon icon-message"><b>20</b></i><br>
+							<i class="icon icon-eye"></i>186
+						</h6>
+						<h5><em>18:56</em>2015/05/26</h5>
+						<h4>
+							<span><i class="icon icon-user3"></i>Jim </span>
+							<span><i class="icon icon-message3"></i>Bruce Lee</span>
+						</h4>
+						<cite>
+							<h3><a href="learning_forum_art.html">About LTE Net, Is there an advantage in the United State for use? </a></h3>
+							<p><a href="learning_forum_art.html">This Qustion is confusing me for a long time, please let me know the result.</a></p>
+						</cite>
+					</li>
+
+				</ul>
+			</div>
+
+			<div class="content_page">
+				<a href="#">Prev</a>
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a class="active" href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+				<a href="#">Prev</a>
+			</div>
+			
+
+		</div>
+		<!-- content over -->
+		
+	</div>
+	<!-- main over -->
+	
+
+
+	
+	<!-- footer begin -->
+	<div class="footer">Copyright © Huawei Technologies Co., Ltd. 1998-2015. All rights reserved. (Guangdong No. A2-20044005 -6)</div>
+	<!-- footer over -->
+
+
+	<div class="dialog_box">
+		<div class="dialog" id="dialog">
+
+			<div class="forum_richtext">
+				<h3><i class="icon icon-talk"></i>Reply</h3>
+				<div class="input_width"><input type="text" name="" value=""></div>
+				<script id="editor" name="editor" type="text/plain">I have a question to ask you </script>
+
+				<input type="submit" value="Send">
+				
+			</div>
+
+		</div>
+	</div>
+
+		
+
+	<script src="js/script.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/umeditor/umeditor.config.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/umeditor/umeditor.min.js"></script>
+	<script type="text/javascript" src="js/umeditor/lang/zh-cn/zh-cn.js"></script>
+	<script>
+		window.editor = UM.getEditor('editor',{initialFrameHeight:100});
+	</script>
+</body>
+</html>

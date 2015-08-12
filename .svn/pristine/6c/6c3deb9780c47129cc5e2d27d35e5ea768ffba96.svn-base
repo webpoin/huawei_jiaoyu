@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta content="width=device-width,user-scalable=no" name="viewport">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="fullscreen=yes,preventMove=no" name="ML-Config">
+	<title>Learning Forum</title>
+
+	<!-- css -->
+	<link href="js/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/react.css">
+</head>
+<body>
+
+	<!-- header begin -->
+	<div class="header">
+		<div class="header_top">
+			<a href="#" class="header_logo"><img src="images/header_logo.png" alt=""></a>
+			<div class="header_user">
+				<a href="#">Admin01</a> |
+				<a href="#">My Zone</a> |
+				<a href="#">中</a>
+			</div>
+		</div>
+
+		<div class="header_nav">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li class="active"><a href="#">INTRO</a></li>
+				<li><a href="#">LEARN</a></li>
+				<li><a href="#">REPORT</a></li>
+				<li><a href="#">BBS</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+		</div>
+
+		<div class="header_locatioin">Your Current Location:BBS</div>
+	</div>
+	<!-- header over -->
+	
+
+
+	<!-- main begin -->
+	<div class="main cs">
+		<div class="sidebar_nav show_min">
+			<span class="sidebar_nav_arrow">&nbsp;</span>
+			<a href="learning_map.html"><i class="icon icon-map"></i>Learning Map</a>
+			<a href="edoc_list.html"><i class="icon icon-word"></i>Edoc List</a>
+			<a class="active" href="learning_forum.html"><i class="icon icon-message4"></i>Learning Forum</a>
+			<a href="course_report.html"><i class="icon icon-book2"></i>Course Report</a>
+			<a href="student_reports.html"><i class="icon icon-date"></i>Student Reports</a>
+			<a href="rich_text.html"><i class="icon icon-book4"></i>Rich Text</a>
+			<a href="lms_list.html"><i class="icon icon-book3"></i>LMS List</a>
+			<a href="course_study.html"><i class="icon icon-book"></i>Course Study</a>
+			<a href="project_introduction.html"><i class="icon icon-book5"></i>Project Introduction</a>
+			<a href="personal_report.html"><i class="icon icon-user"></i>Personal Report</a>
+			<a href="team_reports.html"><i class="icon icon-user2"></i>Team Reports</a>
+			<a href="faq.html"><i class="icon icon-question"></i>FAQ</a>
+		</div>
+		<div class="content show_min"><h2><i class="icon icon-message4"></i>Learning Forum</h2></div>
+		
+
+		<div class="forum">
+			<div class="forum_tips">Become unpinned</div>
+			<div class="forum_man">
+				<div class="forum_man_pic"><img src="images/content_forum_man.jpg" alt=""></div>
+				<h3>About LTE Net, Is there an advantage in the United State for use?</h3>
+				<h6>
+					<i class="icon icon-user3"></i>Jim &nbsp;&nbsp;&nbsp;
+					2015-06-01  14:20&nbsp;&nbsp;&nbsp;
+					<i class="icon icon-eye"></i>86
+				</h6>
+				<p>This question is confusing me for a long time, please let me know the results, LTEtechonologyinnovation point where you can give me a detailed axplanation? please let me know the results, LTEtechonologyinnovation point where you can give me a detailed axplanation?</p>
+				<div class="forum_reply"><a href="#forum" class="btn" >Reply</a></div>
+			</div>
+		</div>
+		<div class="forum">
+			<div class="forum_tips" style="color:#ff7316;"><i class="icon icon-degree"></i> Expert Answer</div>
+			<div class="forum_man">
+				<div class="forum_man_pic"><img src="images/content_forum_man.jpg" alt=""></div>
+				<h3>Bruce Lee</h3>
+				<h6>Senior Network Engineer</h6>
+			</div>
+			<div class="forum_word">
+				Hello,Jim <br><br>
+				Glad to answer your question, first of all, I want to say it is the advantage of LTE network, and then i wil tell you how tolearn, your country according to what i know is the LTE network construction. For information, please click download.
+
+				<div class="forum_reply">
+					<a href="#"><i class="icon icon-attachment"></i>Annex 1</a>
+					<a href="#"><i class="icon icon-attachment"></i>Annex 1</a>
+					<button >Reply</button>
+				</div>
+				<div class="forum_word_time">2015-06-01  16:20</div>
+				<div class="forum_word_edit"><i class="icon icon-editor"></i></div>
+			</div>
+			<div class="forum_fold">
+				<h3><span>Fold</span></h3>
+				<ul>
+					<li class="hob">
+						<span class="foat1"><em>Justin: </em> You have a problem with this answer!!!</span>
+						<span class="foat2">2015-06-01    18:20</span>
+						<span class="foat3"><a class="forum_input" href="#">Reply</a></span>
+					</li>
+					<li class="hob">
+						<span class="foat1"><em>Justin: </em> You have a problem with this answer!!!</span>
+						<span class="foat2">2015-06-01    18:20</span>
+						<span class="foat3"><a class="forum_input" href="#">Reply</a></span>
+					</li>
+					<li class="hob">
+						<span class="foat1"><em>Justin: </em> You have a problem with this answer!!!</span>
+						<span class="foat2">2015-06-01    18:20</span>
+						<span class="foat3"><a class="forum_input" href="#">Reply</a></span>
+					</li>
+					<li class="hob">
+						<span class="foat1"><em>Justin: </em> You have a problem with this answer!!!</span>
+						<span class="foat2">2015-06-01    18:20</span>
+						<span class="foat3"><a class="forum_input" href="#">Reply</a></span>
+					</li>
+					
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="forum">
+			<div class="forum_man">
+				<div class="forum_man_pic"><img src="images/content_forum_man.jpg" alt=""><span>Cindy</span></div>
+				<div class="forum_word">
+					I Think this is not possible, your country.
+
+					<div class="forum_reply"><a href="#forum" class="btn">Reply</a></div>
+					<div class="forum_word_time">2015-06-01  16:20</div>
+				</div>
+
+			</div>
+			
+		</div>
+		<div class="forum">
+			<div class="forum_man">
+				<div class="forum_man_pic"><img src="images/content_forum_man.jpg" alt=""><span>Cindy</span></div>
+				<div class="forum_word">
+					Hello,Jim <br><br>
+					Glad to answer your question, first of all, I want to say it is the advantage of LTE network, and then i wil tell you how tolearn, your country according to what i know is the LTE network construction. For information, please click download.
+
+					<div class="forum_reply"><a href="#forum" class="btn">Reply</a></div>
+					<div class="forum_word_time">2015-06-01  16:20</div>
+				</div>
+				<div class="forum_fold open">
+					<h3><span>Fold</span></h3>
+					<ul>
+						<li class="hob">
+							<span class="foat1"><em>Justin: </em> You have a problem with this answer!!!</span>
+							<span class="foat2">2015-06-01    18:20</span>
+							<span class="foat3"><a class="forum_input" href="#">Reply</a></span>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+			
+		</div>
+
+		<div class="forum" id="forum">
+			<div class="forum_richtext cs">
+				<h3><i class="icon icon-talk"></i>Reply</h3>
+				<!-- <textarea name="" id="editor" ></textarea> -->
+				<script id="editor" name="editor" type="text/plain"></script>
+				<input type="submit" value="Send">
+            	
+       		</div>
+			
+		</div>
+
+	</div>
+	<!-- main over -->
+	
+
+
+	
+	<!-- footer begin -->
+	<div class="footer">Copyright © Huawei Technologies Co., Ltd. 1998-2015. All rights reserved. (Guangdong No. A2-20044005 -6)</div>
+	<!-- footer over -->
+
+
+
+		
+
+	<script src="js/script.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/umeditor/umeditor.config.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/umeditor/umeditor.min.js"></script>
+	<script type="text/javascript" src="js/umeditor/lang/zh-cn/zh-cn.js"></script>
+	<script>
+		var editor = UM.getEditor('editor',{initialFrameHeight:100});
+	</script>
+</body>
+</html>

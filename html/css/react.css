@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+@media(max-width: 768px) {
+	.hide_min{display: none;}
+	.show_min{display: block;}
+
+
+	.header{display: none;}
+	.footer{font-size: 12px;line-height: 16px;padding: 10px 5px;margin-top: 20px;}
+
+
+	.sidebar{ position: absolute;right: 0;top: 0;float: none;overflow: visible;}
+	.sidebar_nav{position: absolute;right: 0;top: 0px;width: 36px; height: 36px;background: url(#); border:none; z-index: 2;box-shadow: none;}
+	.sidebar_nav a{line-height: 30px;font-size: 14px;margin-bottom: -1px;background: #fff;}
+	.sidebar_nav a i{font-size: 12px;}
+	.sidebar_nav a.active:before{left: -1px;}
+	.sidebar_nav_arrow{display: block;position: relative;background: #fff; }
+	.sidebar_dynamics {display: none;}
+
+
+	.content{margin-left: 0;padding: 10px 3px;border:none;}
+	.content h2{font-size: 16px;color: #e2291c; line-height: 36px;font-weight: normal;padding-left: 15px; margin: -10px -3px 0;border-bottom: 1px solid #d6d6d6;}
+	.content h2:before{content: '';position: absolute;left: 0;top: 0; width: 5px;height: 37px;vertical-align: top;background: #e2291c;}
+	.content h2 i{background: none;width: 20px;height: 20px;line-height: 20px; color: #e2291c;  vertical-align: 1px;}
+	.content h2.color_green{padding-left: 10px;border-bottom-width: 3px}
+	.content h2.color_green:before{display: none;}
+	.content h2.color_green i{border:none;color: #fff;font-size: 12px; }
+	.content h2.color_purple{padding-left: 10px;border-bottom-width: 3px}
+	.content h2.color_purple:before{display: none;}
+	.content h2.color_purple i{border:none;color: #fff;font-size: 12px; }
+	.content h2.color_orange{padding-left: 10px;border-bottom-width: 3px}
+	.content h2.color_orange:before{display: none;}
+	.content h2.color_orange i{border:none;color: #fff;font-size: 12px; }
+	.content h2.color_blue{padding-left: 10px;border-bottom-width: 3px}
+	.content h2.color_blue:before{display: none;}
+	.content h2.color_blue i{border:none;color: #fff;font-size: 12px; }
+	.content h2.color_orchid{padding-left: 10px;border-bottom-width: 3px}
+	.content h2.color_orchid:before{display: none;}
+	.content h2.color_orchid i{border:none;color: #fff;font-size: 12px; }
+	
+
+
+	.content table {font-size: 12px;margin-top: 10px;}
+	.content table td,.content table th{padding: 5px 3px;}
+	.content table thead td,.content table thead th{font-size: 12px;}
+	.content form{padding: 5px 0;margin-top: 0;margin-bottom: -10px;}
+
+
+
+	.content_percent{height: 16px;line-height: 16px;}
+	.content_percent em {line-height: 18px;}
+
+	.content_map tr.level_0 th {padding-left: 15px;}
+	.content_map tr.level_0 th i{left: 2px;}
+	.content_map tr.level_1 th{padding-left: 25px;}
+	.content_map tr.level_1 th i{left: 12px;}
+	.content_map tr.level_2 th{padding-left: 35px;}
+	.content_map tr.level_2 th i{left: 22px;}
+
+	.content_project>p {margin: 10px 5px;padding:8px;font-size: 12px;}
+	.content_project_relation cite span{margin: 0 5px;padding: 10px 5px;font-size: 12px;}
+	.content_project_relation cite em{padding-top: 20px;}
+	.content_project_relation cite em:before{height: 18px;}
+
+	.content_report{margin: 20px 0px;}
+	.content_report li{margin-bottom: 6px;}
+	.content_report cite{font-size: 12px;padding: 10px;overflow: hidden;margin: 0 3px;}
+	.content_report h3{font-size: 18px;}
+	.content_teamreview{margin: 20px 5px 10px;padding: 1px 8px 20px;}
+
+
+	.content_forum_man{margin: 10px 5px 0; padding: 20px 10px;text-align: center;}
+	.content_forum_man dt a{width: 70px;height: 70px;}
+	.content_forum_man dt cite{padding: 5px 0;}
+	.content_forum_man dt img{width: 70px;height: 70px;}
+	.content_forum_man dd{font-size: 12px;line-height: 14px;margin: 0;}
+	.content_forum form {margin: 10px 5px 0;  padding: 8px 8px 0;}
+	.content_forum form select{width: 60px;margin-right: 2px;}
+	.content_forum form cite{width: 100px;}
+	.content_forum form cite input[type=text]{width: 62px;}
+
+
+	.content_forum_li ul cite {margin-right: 0;}
+	.content_forum_li li{padding-bottom: 30px;}
+	.content_forum_li ul h4{position: absolute;bottom: 5px;width: auto; right: 110px; white-space: nowrap;}
+	.content_forum_li ul h4 span{display: inline;}
+	.content_forum_li ul h5{position: absolute;bottom: 5px;right: 10px;white-space: nowrap;width: auto;}
+	.content_forum_li ul h5 em{float: right;margin-left: 3px;}
+
+
+	.forum{padding: 20px 5px;}
+	.forum_man {margin-left: 40px;}
+	.forum_man_pic{left: -40px;}
+	.forum_man_pic img{width: 32px;height: 32px;}
+	.forum_man h3{font-size: 13px;line-height: 16px;}
+	.forum_word,.forum_fold{margin-left: 24px;}
+	.forum_fold ul{margin-left: 0;}
+
+	.content_course_progress{padding: 15px 0;font-size: 12px;}
+	.content_course_progress b{display: block;}
+	.content_course_progress span{padding: 0 2px;}
+
+	.content_course_study {margin: 30px 0 10px;}
+	/*.content_course_study dt{margin: 0 5px 8px;}*/
+	/*.content_course_study dt span{font-size: 13px;}*/
+	.content_course_study dt:after{margin: 0 8px;}
+	.content_course_study dd{margin: 30px 5px 0;}
+	.content_course_arrow {margin: 0;}
+	.content_course_study h3 span {font-size: 12px;font-weight: normal;}
+	.content_course_study p a{font-size: 12px;font-weight: normal;}
+	.content_course_study p a i{font-size: 12px;}
+	.content_course_study cite {padding: 5px 0;}
+	.content_course_study cite a{text-indent: 3px;font-size: 12px;}
+	.content_course_study li.course_msg_left cite,.content_course_study li.course_msg_right cite{width: 150px;}
+
+	.content_course_study dl.course_horizontal dd{width: 33.33%;}
+	.content_course_study dl.course_horizontal dd h3{margin: 0 5px;}
+	.content_course_study dl.course_horizontal dd ul{margin: 0 5px;}
+
+
+
+
+	.content_faq dt{padding: 20px 10px 0 30px;font-size: 13px;}
+	.content_faq dt:before {top: 19px;left: 8px;}
+	.content_faq dd{padding: 0 10px 20px 30px;font-size: 12px;}
+	.content_faq dd:before {top: 0px;left: 8px;font-size: 14px;}
+
+
+
+	.dialog>p{font-size: 12px;line-height: 16px;padding: 10px 5px;}
+	.dialog label{margin-top: 5px;}
+	.dialog label span {font-size: 12px;width: 62px;white-space: nowrap;}
+	.dialog input[type=text]{width: 81px;}
+	.dialog select{width: 87px;}
+	.dialog_select span{text-indent: -22px;}
+	.dialog_textarea{padding-top: 0;padding-top: 5px;margin-left: 67px;}
+	.dialog_submit{padding-top: 10px;}
+
+	.faq_ask{width: 30px;height: 30px;line-height: 30px; font-size: 16px;bottom: 60px;}
+	.totop{height: 30px;width: 30px;line-height: 30px;font-size: 16px;}
+
+	.content_page {text-align: center;white-space: nowrap;}
+	.content_page a{margin: 0 2px;}
+
+
+}
+
+
+@media(max-width: 480px) {
+	.content_course_study dl{width: 33.33%;}
+
+}

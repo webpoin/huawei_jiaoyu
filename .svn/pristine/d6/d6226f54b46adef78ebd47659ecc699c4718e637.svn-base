@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta content="width=device-width,user-scalable=no" name="viewport">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="fullscreen=yes,preventMove=no" name="ML-Config">
+	<title>Student Reports</title>
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/react.css">
+</head>
+<body>
+
+	<!-- header begin -->
+	<div class="header">
+		<div class="header_top">
+			<a href="#" class="header_logo"><img src="images/header_logo.png" alt=""></a>
+			<div class="header_user">
+				<a href="#">Admin01</a> |
+				<a href="#">My Zone</a> |
+				<a href="#">中</a>
+			</div>
+		</div>
+
+		<div class="header_nav">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li class="active"><a href="#">INTRO</a></li>
+				<li><a href="#">LEARN</a></li>
+				<li><a href="#">REPORT</a></li>
+				<li><a href="#">BBS</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+		</div>
+
+		<div class="header_locatioin">Your Current Location:BBS</div>
+	</div>
+	<!-- header over -->
+	
+
+
+	<!-- main begin -->
+	<div class="main cs">
+		
+		<!-- sidebar begin -->
+		<div class="sidebar">
+			
+			<div class="sidebar_nav">
+				<span class="sidebar_nav_arrow">&nbsp;</span>
+				<a href="learning_map.html"><i class="icon icon-map"></i>Learning Map</a>
+				<a href="edoc_list.html"><i class="icon icon-word"></i>Edoc List</a>
+				<a href="learning_forum.html"><i class="icon icon-message4"></i>Learning Forum</a>
+				<a href="course_report.html"><i class="icon icon-book2"></i>Course Report</a>
+				<a class="active" href="student_reports.html"><i class="icon icon-date"></i>Student Reports</a>
+				<a href="rich_text.html"><i class="icon icon-book4"></i>Rich Text</a>
+				<a href="lms_list.html"><i class="icon icon-book3"></i>LMS List</a>
+				<a href="course_study.html"><i class="icon icon-book"></i>Course Study</a>
+				<a href="project_introduction.html"><i class="icon icon-book5"></i>Project Introduction</a>
+				<a href="personal_report.html"><i class="icon icon-user"></i>Personal Report</a>
+				<a href="team_reports.html"><i class="icon icon-user2"></i>Team Reports</a>
+				<a href="faq.html"><i class="icon icon-question"></i>FAQ</a>
+			</div>
+
+			<div class="sidebar_dynamics">
+				<h2><i class="icon icon-bell"></i>Learning dynamics</h2>
+				<ul>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<!-- header over -->
+		
+
+		
+		<!-- content begin -->
+		<div class="content content_course">
+			
+			<h2><i class="icon icon-date"></i>Student Reports</h2>
+
+			<form action="#">
+				<a class="fr" href="#"><i class="icon icon-book6"></i>Download</a>
+
+				<b>Demo Project Zone - Learner Report</b> 
+			</form>
+
+			<table border="0" cellspacing="0" cellpadding="0">
+
+				<thead>
+					<tr>
+						<td><a href="#">Name <i class="icon icon-sort-big"></i></a></td>
+						<td><a href="#">Email <i class="icon icon-sort-big"></i></a></td>
+						<td class="hide_min"><a href="#">Progress <i class="icon icon-sort-big"></i></a></td>
+						<td><a href="#">Detail <i class="icon icon-sort-big"></i></a></td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="#">test1 est1</a></td>
+						<td>test1@huawei.com</td>
+						<td class="hide_min"><span class="content_percent"><b style="width:90%"></b><em>90%</em></span></td>
+						<td><a href="student_reports_art.html">Course TotalP:6, Attended:0</a></td>
+					</tr>
+					<tr>
+						<td><a href="#" class="online">zhouyi wx176274</a></td>
+						<td>zhouyi1@huawei.com</td>
+						<td class="hide_min"><span class="content_percent"><b style="width:0%"></b><em>0%</em></span></td>
+						<td><a href="student_reports_art.html">Course TotalP:6, Attended:0</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">test1 est1</a></td>
+						<td>test1@huawei.com</td>
+						<td class="hide_min"><span class="content_percent"><b style="width:0%"></b><em>0%</em></span></td>
+						<td><a href="student_reports_art.html">Course TotalP:6, Attended:0</a></td>
+					</tr>
+					<tr>
+						<td><a href="#" class="online">zhouyi wx176274</a></td>
+						<td>zhouyi1@huawei.com</td>
+						<td class="hide_min"><span class="content_percent"><b style="width:0%"></b><em>0%</em></span></td>
+						<td><a href="student_reports_art.html">Course TotalP:6, Attended:0</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">test1 est1</a></td>
+						<td>test1@huawei.com</td>
+						<td class="hide_min"><span class="content_percent"><b style="width:0%"></b><em>0%</em></span></td>
+						<td><a href="student_reports_art.html">Course TotalP:6, Attended:0</a></td>
+					</tr>
+					<tr>
+						<td><a href="#" class="online">zhouyi wx176274</a></td>
+						<td>zhouyi1@huawei.com</td>
+						<td class="hide_min"><span class="content_percent"><b style="width:0%"></b><em>0%</em></span></td>
+						<td><a href="student_reports_art.html">Course TotalP:6, Attended:0</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">test1 est1</a></td>
+						<td>test1@huawei.com</td>
+						<td class="hide_min"><span class="content_percent"><b style="width:0%"></b><em>0%</em></span></td>
+						<td><a href="student_reports_art.html">Course TotalP:6, Attended:0</a></td>
+					</tr>
+					<tr>
+						<td><a href="#" class="online">zhouyi wx176274</a></td>
+						<td>zhouyi1@huawei.com</td>
+						<td class="hide_min"><span class="content_percent"><b style="width:0%"></b><em>0%</em></span></td>
+						<td><a href="student_reports_art.html">Course TotalP:6, Attended:0</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">test1 est1</a></td>
+						<td>test1@huawei.com</td>
+						<td class="hide_min"><span class="content_percent"><b style="width:0%"></b><em>0%</em></span></td>
+						<td><a href="student_reports_art.html">Course TotalP:6, Attended:0</a></td>
+					</tr>
+					<tr>
+						<td><a href="#" class="online">zhouyi wx176274</a></td>
+						<td>zhouyi1@huawei.com</td>
+						<td class="hide_min"><span class="content_percent"><b style="width:0%"></b><em>0%</em></span></td>
+						<td><a href="student_reports_art.html">Course TotalP:6, Attended:0</a></td>
+					</tr>
+
+				</tbody>
+			</table>
+			
+
+			<div class="content_page">
+				<a href="#">Prev</a>
+				<a href="#">1</a>
+				<a class="active" href="#">2</a>
+				<a href="#">Prev</a>
+			</div>
+			
+
+
+		</div>
+		<!-- content over -->
+		
+	</div>
+	<!-- main over -->
+	
+
+
+	
+	<!-- footer begin -->
+	<div class="footer">Copyright © Huawei Technologies Co., Ltd. 1998-2015. All rights reserved. (Guangdong No. A2-20044005 -6)</div>
+	<!-- footer over -->
+
+
+
+		
+
+
+	<script src="js/script.js"></script>
+</body>
+</html>

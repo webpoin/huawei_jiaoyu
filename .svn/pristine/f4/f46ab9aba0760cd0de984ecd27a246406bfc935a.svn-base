@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta content="width=device-width,user-scalable=no" name="viewport">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="fullscreen=yes,preventMove=no" name="ML-Config">
+	<title>Rich Text</title>
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/react.css">
+</head>
+<body>
+
+	<!-- header begin -->
+	<div class="header">
+		<div class="header_top">
+			<a href="#" class="header_logo"><img src="images/header_logo.png" alt=""></a>
+			<div class="header_user">
+				<a href="#">Admin01</a> |
+				<a href="#">My Zone</a> |
+				<a href="#">中</a>
+			</div>
+		</div>
+
+		<div class="header_nav">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li class="active"><a href="#">INTRO</a></li>
+				<li><a href="#">LEARN</a></li>
+				<li><a href="#">REPORT</a></li>
+				<li><a href="#">BBS</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+		</div>
+
+		<div class="header_locatioin">Your Current Location:BBS</div>
+	</div>
+	<!-- header over -->
+	
+
+
+	<!-- main begin -->
+	<div class="main cs">
+		
+		<!-- sidebar begin -->
+		<div class="sidebar">
+			
+			<div class="sidebar_nav">
+				<span class="sidebar_nav_arrow">&nbsp;</span>
+				<a href="learning_map.html"><i class="icon icon-map"></i>Learning Map</a>
+				<a href="edoc_list.html"><i class="icon icon-word"></i>Edoc List</a>
+				<a href="learning_forum.html"><i class="icon icon-message4"></i>Learning Forum</a>
+				<a href="course_report.html"><i class="icon icon-book2"></i>Course Report</a>
+				<a href="student_reports.html"><i class="icon icon-date"></i>Student Reports</a>
+				<a class="active" href="rich_text.html"><i class="icon icon-book4"></i>Rich Text</a>
+				<a href="lms_list.html"><i class="icon icon-book3"></i>LMS List</a>
+				<a href="course_study.html"><i class="icon icon-book"></i>Course Study</a>
+				<a href="project_introduction.html"><i class="icon icon-book5"></i>Project Introduction</a>
+				<a href="personal_report.html"><i class="icon icon-user"></i>Personal Report</a>
+				<a href="team_reports.html"><i class="icon icon-user2"></i>Team Reports</a>
+				<a href="faq.html"><i class="icon icon-question"></i>FAQ</a>
+			</div>
+
+			<div class="sidebar_dynamics">
+				<h2><i class="icon icon-bell"></i>Learning dynamics</h2>
+				<ul>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<!-- header over -->
+		
+
+		
+		<!-- content begin -->
+		<div class="content">
+			
+			<h2><i class="icon icon-book4"></i>Project Introduction</h2>
+			<div class="content_project">
+				<p>With the popularity of LTE, LTE brings new business, increase business types, LTE business is relatively traditional 2G, 3G business processes vary widely, LTE wireless network, core network, backhaul adding new network elements, existing networks and new LTE LTE network to bring a lot of changes in the larger network of new knowledge across professional knowledge of the staff capacity LTE network upgrade is extremely important.</p>
+				<dl>
+					<dt><i class="icon icon-chart2"></i>Learning Objective</dt>
+					<dd>1. Have daily work LTE basic knowledge;<br>
+						2. Familiar LTE business characteristics;<br>
+						3. Quick Start LTE operation and maintenance work to lay a solid foundation, enhance efficiency.
+					</dd>
+					<dt><i class="icon icon-log"></i>Learning rule</dt>
+					<dd>1. Opening hours: three months. <br>
+						2.10 online multimedia courses open at the same time.<br>
+						3. After setting each course online test to assess learning outcomes complete score of 80 points or 3 times to unlock the next exam after exam.<br>
+						4. The students will be posted on the forum learning problems encountered in the process, and exchange ideas; Huawei expert online Q &amp; A, answer student learning process doubts<br>
+						</dd>
+					<dt><i class="icon icon-book7"></i>Learning Paths</dt>
+				</dl>
+			</div>
+			<div class="content_project_relation">
+				<h3><span>LTE <br>network introduction</span><i>&nbsp;</i></h3>
+				
+				<cite class="first">
+					<i>&nbsp;</i>
+					<span>Wireless Communication Technology</span>
+					<em><i class="icon icon-jiantou"></i></em>
+					<span>Wireless Communication Technology</span>
+					<em><i class="icon icon-jiantou"></i></em>
+					<span>Wireless Communication Technology</span>
+					<em><i class="icon icon-jiantou"></i></em>
+					<span>Wireless Communication Technology</span>
+				</cite>
+				<cite>
+					<i>&nbsp;</i>
+					<span>Wireless Communication Technology</span>
+					<em><i class="icon icon-jiantou"></i></em>
+					<span>Wireless Communication Technology</span>
+				</cite>
+				<cite class="last">
+					<i>&nbsp;</i>
+					<span>Wireless Communication Technology</span>
+					<em><i class="icon icon-jiantou"></i></em>
+					<span>Wireless Communication Technology</span>
+					<em><i class="icon icon-jiantou"></i></em>
+					<span>Wireless Communication Technology</span>
+				</cite>
+			</div>
+
+
+
+			<h2><i class="icon icon-question"></i>FAQ</h2>
+
+			<div class="content_faq">
+				<dl>
+					<dt>How to view the learning record？ </dt>	
+					<dd>Students can review the learning record through the personal report.</dd>
+
+					<dt>How many points are passed by the exam?</dt>	
+					<dd>Students can review the learning record through the personal report. Set up the online exam after each courseevaluate learning effect. The exam results reached 80 points or finished the three examination as passed, can unlock the next exam. </dd>
+
+					<dt>How to view the learning record？ </dt>	
+					<dd>Students can review the learning record through the personal report.</dd>
+
+					<dt>How to view the learning record？ </dt>	
+					<dd>Students can review the learning record through the personal report.</dd>
+
+					<dt>How to view the learning record？ </dt>	
+					<dd>Students can review the learning record through the personal report.</dd>
+
+					<dt>How to view the learning record？ </dt>	
+					<dd>Students can review the learning record through the personal report.</dd>
+
+					<dt>How to view the learning record？ </dt>	
+					<dd>Students can review the learning record through the personal report.</dd>
+
+					<dt>How to view the learning record？ </dt>	
+					<dd>Students can review the learning record through the personal report.</dd>
+
+					<dt>How to view the learning record？ </dt>	
+					<dd>Students can review the learning record through the personal report.</dd>
+
+					<dt>How to view the learning record？ </dt>	
+					<dd>Students can review the learning record through the personal report.</dd>
+				</dl>
+			</div>
+
+			
+			<h2 ><i class="icon icon-editor2"  ></i>Heading</h2>
+			<div>
+				<br>
+				<h1>h1. Heading 1</h1>
+				<p class="lead">
+					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+				</p>
+				<h2>h2. Heading 2</h2>
+				<p>
+					Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+				</p>
+				<h3>h3. Heading 3</h3>
+				<p>
+					Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+				</p>
+				<h4>h4. Heading 4</h4>
+				<h5>h5. Heading 5</h5>
+				<h6>h6. Heading 6</h6>
+			</div>
+
+
+
+			<h2 ><i class="icon icon-editor2"  ></i>List Types</h2>
+			<br>
+			<h3>Unordered List</h3>
+			<ul class="list">
+				<li>Unordered List Item</li>
+				<li><small>List Item in small tag</small></li>
+				<li><b>List Item in bold tag</b></li>
+				<li><i>List Item in italics tag</i></li>
+				<li>Unordered List Item which is a longer item and may break into more lines.</li>
+				<li><strong>List Item in strong tag</strong></li>
+				<li><em>List Item in emphasis tag</em></li>
+			</ul>
+
+			<br>
+			<h3>Ordered List</h3>
+			
+			<ol class="list">
+				<li>Ordered List Item</li>
+				<li class="text-primary"> Ordered List Item</li>
+				<li class="text-danger"> Ordered List Item</li>
+				<li class="text-warning"> Ordered List Item</li>
+				<li class="text-muted"> Ordered List Item</li>
+			</ol>
+
+
+
+			<br><br>
+			<h2 ><i class="icon icon-editor2"  ></i>Form</h2>
+			
+			<form>
+				<span>Text Field</span><br>
+				<input type="text" name="" ><br>
+
+				<br>
+				<span>Textarea Area</span><br>
+				<textarea name=""   style="width:100%;height:100px;"></textarea><br>
+
+				<br>
+				<span>Select Element</span><br>
+				<select name="" style="width:200px">
+					<option value="">1</option>
+					<option value="">2</option>
+					<option value="">3</option>
+					<option value="">4</option>
+				</select><br>
+
+				<br>
+				<span>Radio Buttons</span><br>
+				<label><input type="checkbox" name="" > checkbox1</label>
+				<label><input type="checkbox" name="" > checkbox2</label>
+				<label><input type="checkbox" name="" > checkbox3</label>
+
+				<br>
+				<label><input type="radio" name="test" > radio1</label>
+				<label><input type="radio" name="test" > radio1</label>
+				<label><input type="radio" name="test" > radio1</label>
+
+				<br><br>
+				<input type="submit" value="submit">
+				<button>button</button>
+
+			</form>
+
+			<br><br>
+			<h2 ><i class="icon icon-editor2"  ></i>Tables</h2>
+			<table border="0" cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<th>Crouse</th>
+						<td>Last Learning Time</td>
+						<td>Progress</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>4G/VoLTE Voice service4G/VoLTE Voice service4G/VoLTE Voice service (WBT)</th>
+						<td>2015-05-22 16:45</td>
+						<td><a href="#" class="btn btn_orange">Review</a></td>
+					</tr>
+					<tr>
+						<th>LTE wireless network equipment (WBT)</th>
+						<td>2015-05-22 16:45</td>
+						<td><a href="#" class="btn btn_blue">In Progress</a></td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network (WBT)</th>
+						<td>2015-05-22 16:45</td>
+						<td><a href="#" class="btn btn_green">Start</a></td>
+					</tr>
+
+				</tbody>
+			</table>
+			<div class="content_page">
+				<a href="#">Prev</a>
+				<a href="#">1</a>
+				<a class="active" href="#">2</a>
+				<a href="#">Prev</a>
+			</div>
+
+
+			<table class="content_percent_inside" border="0" cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<th>Course Title</th>
+						<td>Completion rate</td>
+						<td>Complete The number</td>
+						<td>Detailed</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td><a href="#"><i class="icon icon-play2"></i></a></td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td><a href="#"><i class="icon icon-play2"></i></a></td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td><a href="#"><i class="icon icon-play2"></i></a></td>
+					</tr>
+
+
+				</tbody>
+			</table>
+
+			<table class="content_percent_inside content_percent_orchid" border="0" cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<th>Exam</th>
+						<td>Points rate</td>
+						<td>Completion rate</td>
+						<td>Complete The number</td>
+						<td>Detailed</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>4G era of voice services --- VoLTE</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th>LTE wireless packet network</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th>LTE key technology introduction</th>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td><span class="content_percent"><b style="width:90%"></b><em>90% Complete</em></span></td>
+						<td>45</td>
+						<td></td>
+					</tr>
+				
+				</tbody>
+			</table>
+
+
+		</div>
+		<!-- content over -->
+		
+	</div>
+	<!-- main over -->
+	
+
+
+	
+	<!-- footer begin -->
+	<div class="footer">Copyright © Huawei Technologies Co., Ltd. 1998-2015. All rights reserved. (Guangdong No. A2-20044005 -6)</div>
+	<!-- footer over -->
+
+
+
+		
+
+
+	<script src="js/script.js"></script>
+</body>
+</html>

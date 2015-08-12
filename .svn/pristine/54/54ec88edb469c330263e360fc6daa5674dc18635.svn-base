@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta content="width=device-width,user-scalable=no" name="viewport">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="fullscreen=yes,preventMove=no" name="ML-Config">
+	<title>Project Introduction</title>
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/react.css">
+</head>
+<body>
+
+	<!-- header begin -->
+	<div class="header">
+		<div class="header_top">
+			<a href="#" class="header_logo"><img src="images/header_logo.png" alt=""></a>
+			<div class="header_user">
+				<a href="#">Admin01</a> |
+				<a href="#">My Zone</a> |
+				<a href="#">中</a>
+			</div>
+		</div>
+
+		<div class="header_nav">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li class="active"><a href="#">INTRO</a></li>
+				<li><a href="#">LEARN</a></li>
+				<li><a href="#">REPORT</a></li>
+				<li><a href="#">BBS</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+		</div>
+
+		<div class="header_locatioin">Your Current Location:BBS</div>
+	</div>
+	<!-- header over -->
+	
+
+
+	<!-- main begin -->
+	<div class="main cs">
+		
+		<!-- sidebar begin -->
+		<div class="sidebar">
+			
+			<div class="sidebar_nav">
+				<span class="sidebar_nav_arrow">&nbsp;</span>
+				<a href="learning_map.html"><i class="icon icon-map"></i>Learning Map</a>
+				<a href="edoc_list.html"><i class="icon icon-word"></i>Edoc List</a>
+				<a href="learning_forum.html"><i class="icon icon-message4"></i>Learning Forum</a>
+				<a href="course_report.html"><i class="icon icon-book2"></i>Course Report</a>
+				<a href="student_reports.html"><i class="icon icon-date"></i>Student Reports</a>
+				<a href="rich_text.html"><i class="icon icon-book4"></i>Rich Text</a>
+				<a href="lms_list.html"><i class="icon icon-book3"></i>LMS List</a>
+				<a href="course_study.html"><i class="icon icon-book"></i>Course Study</a>
+				<a class="active" href="project_introduction.html"><i class="icon icon-book5"></i>Project Introduction</a>
+				<a href="personal_report.html"><i class="icon icon-user"></i>Personal Report</a>
+				<a href="team_reports.html"><i class="icon icon-user2"></i>Team Reports</a>
+				<a href="faq.html"><i class="icon icon-question"></i>FAQ</a>
+			</div>
+
+			<div class="sidebar_dynamics">
+				<h2><i class="icon icon-bell"></i>Learning dynamics</h2>
+				<ul>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+					<li>
+						<h3><img src="images/sidebar_dynamics_pic.jpg" alt="">W0102045562</h3>
+						<h4>参加了LTE端到端网络课程(WBT)</h4>
+						2015/06/11   15:30
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<!-- header over -->
+		
+
+		
+		<!-- content begin -->
+		<div class="content">
+			
+			<h2><i class="icon icon-book5"></i>Project Introduction</h2>
+			
+			<div class="content_project">
+				<p>With the popularity of LTE, LTE brings new business, increase business types, LTE business is relatively traditional 2G, 3G business processes vary widely, LTE wireless network, core network, backhaul adding new network elements, existing networks and new LTE LTE network to bring a lot of changes in the larger network of new knowledge across professional knowledge of the staff capacity LTE network upgrade is extremely important.</p>
+				<dl>
+					<dt><i class="icon icon-chart2"></i>Learning Objective</dt>
+					<dd>1. Have daily work LTE basic knowledge;<br>
+						2. Familiar LTE business characteristics;<br>
+						3. Quick Start LTE operation and maintenance work to lay a solid foundation, enhance efficiency.
+					</dd>
+					<dt><i class="icon icon-log"></i>Learning rule</dt>
+					<dd>1. Opening hours: three months. <br>
+						2.10 online multimedia courses open at the same time.<br>
+						3. After setting each course online test to assess learning outcomes complete score of 80 points or 3 times to unlock the next exam after exam.<br>
+						4. The students will be posted on the forum learning problems encountered in the process, and exchange ideas; Huawei expert online Q & A, answer student learning process doubts<br>
+						</dd>
+					<dt><i class="icon icon-book7"></i>Learning Paths</dt>
+				</dl>
+			</div>
+
+			<div class="content_project_relation">
+				<h3><span>LTE <br>network introduction</span><i>&nbsp;</i></h3>
+				
+				<cite class="first">
+					<i>&nbsp;</i>
+					<span>Wireless Communication Technology</span>
+					<em><i class="icon icon-jiantou"></i></em>
+					<span>Wireless Communication Technology</span>
+					<em><i class="icon icon-jiantou"></i></em>
+					<span>Wireless Communication Technology</span>
+					<em><i class="icon icon-jiantou"></i></em>
+					<span>Wireless Communication Technology</span>
+				</cite>
+				<cite>
+					<i>&nbsp;</i>
+					<span>Wireless Communication Technology</span>
+					<em><i class="icon icon-jiantou"></i></em>
+					<span>Wireless Communication Technology</span>
+				</cite>
+				<cite class="last">
+					<i>&nbsp;</i>
+					<span>Wireless Communication Technology</span>
+					<em><i class="icon icon-jiantou"></i></em>
+					<span>Wireless Communication Technology</span>
+					<em><i class="icon icon-jiantou"></i></em>
+					<span>Wireless Communication Technology</span>
+				</cite>
+
+
+
+			</div>
+
+
+
+		</div>
+		<!-- content over -->
+		
+	</div>
+	<!-- main over -->
+	
+
+
+	
+	<!-- footer begin -->
+	<div class="footer">Copyright © Huawei Technologies Co., Ltd. 1998-2015. All rights reserved. (Guangdong No. A2-20044005 -6)</div>
+	<!-- footer over -->
+
+
+
+		
+
+
+	<script src="js/script.js"></script>
+</body>
+</html>
