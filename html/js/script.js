@@ -196,7 +196,9 @@ $(function(){
 
 	// course_study
 	$('.content_course_arrow').each(function(){
-		var dl = $(this).before('<div class="content_course_arrow_form"/>').children('dl');
+		var $this = $(this);
+		$this.append('<div class="content_course_arrow_form"/>')
+		var dl = $(this).children('dl');
 		dl.first().addClass('first');
 		dl.last().addClass('last');
 	}).scroll(function(){

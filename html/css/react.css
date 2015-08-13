@@ -11,7 +11,7 @@
 
 	.sidebar{ position: absolute;right: 0;top: 0;float: none;overflow: visible;}
 	.sidebar_nav{position: absolute;right: 0;top: 0px;width: 36px; height: 36px;background: url(#); border:none; z-index: 2;box-shadow: none;}
-	.sidebar_nav a{line-height: 30px;font-size: 14px;margin-bottom: -1px;background: #fff;}
+	.sidebar_nav a{padding: 8px 8px 8px 30px; font-size: 14px;margin-bottom: -1px;background: #fff;}
 	.sidebar_nav a i{font-size: 12px;}
 	.sidebar_nav a.active:before{left: -1px;}
 	.sidebar_nav_arrow{display: block;position: relative;background: #fff; }

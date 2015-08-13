@@ -90,8 +90,8 @@ ol.list{margin-left: 25px;}
 
 
 .sidebar_nav {position: relative; box-shadow:0 0 2px #ccc;-moz-border-radius:10px 0 0 0;-webkit-border-radius:10px 0 0 0;border-radius: 10px 0 0 0;overflow: hidden;background: #fff; behavior:url(/jiaoyu/html/css/pie.htc);}
-.sidebar_nav a{ display: block;position: relative;padding: 0 15px; border: 1px solid #f0f0f0; font-size: 18px;line-height: 56px;}
-.sidebar_nav a i{font-size: 20px;margin-right: 8px;}
+.sidebar_nav a{ display: block;position: relative;padding: 0 15px; border: 1px solid #f0f0f0; font-size: 18px;line-height: 22px;padding: 16px 10px 16px 40px;white-space: normal;}
+.sidebar_nav a i{position: absolute;left: 10px;top: 50%;height: 24px;line-height: 24px;margin-top: -12px; font-size: 20px;margin-right: 8px;}
 .sidebar_nav a.active{color: #e2291c;}
 .sidebar_nav a.active:before{content: '';position: absolute;left: 0;top: 0;width: 5px;height: 100%; background: #e2291c; }
 .sidebar_nav_arrow{display: none; width: 0;height: 0; text-align: right;margin: 13px 10px 14px auto; overflow: hidden;border-style: solid; border-width:10px 10px 0;border-color: #999 transparent; }
@@ -247,7 +247,7 @@ ol.list{margin-left: 25px;}
 
 
 
-.content_course_study{text-align: center;margin: 30px -10px 0;position: relative; white-space: nowrap; overflow: hidden; /*margin: 30px -20px 10px;*/}
+.content_course_study{text-align: center;margin: 30px -10px 0; position: relative; white-space: nowrap; overflow: hidden; /*margin: 30px -20px 10px;*/}
 .content_course_study dl{display: inline-block;vertical-align: top;width: 25%;padding-top: 10px;  position: relative; text-align: center;}
 .content_course_study dt{position: absolute;top: 0;left: 0;width: 100%;  height: 40px;background: #fff;white-space: normal; line-height: 30px;margin-bottom: 8px;white-space: nowrap; font-size: 16px;z-index: 1; background: #fff;}
 .content_course_study dt:after{content: '';display: block; height: 0px;margin: 0 30px; border-bottom: 1px dashed #c4c4c4;}
@@ -289,19 +289,18 @@ ol.list{margin-left: 25px;}
 
 
 
-.content_course_arrow{display: block!important;position: relative; overflow: auto;padding-bottom: 30px; letter-spacing:-0.5em !important;font-family: sans-serif !important;}
+.content_course_arrow{display: block!important;position: relative;padding-top: 25px; overflow: auto;padding-bottom: 30px; letter-spacing:-0.5em !important;font-family: sans-serif !important;}
 .content_course_arrow dl{padding-top: 30px;  border-top: 1px solid #848484;letter-spacing:normal;font-family: Helvetica,Arial,Tahoma,sans-serif;}
 .content_course_arrow dl:before{content: ''; position: absolute;z-index: 2;top: 15px;margin-left: -5px; left: 50%;width: 0;height: 0; border-style: solid;border-width: 8px 5px 0;border-color: #848484 transparent transparent;  }
 .content_course_arrow dl:after{content: '';position: absolute;z-index: 2; left: 50%;top: 0px; margin-left: -1px;width: 2px;height: 20px;background: #848484;}
 .content_course_arrow dt{top: 20px;}
 .content_course_arrow dl.first dt:before{content: '';position: absolute;left: 0;top: 0;width: 50%;height: 2px;top: -21px;margin-left: -1px; background: #fff;}
 .content_course_arrow dl.last dt:before{content: '';position: absolute;right: 0;top: 0;width: 50%;height: 2px;top: -21px;margin-right: -1px; background: #fff;}
-.content_course_arrow_form{ display: block!important;margin: 10px auto 0;  width: 2px;height: 20px;background: #848484;}
-
-
+.content_course_arrow_form{position: absolute;top: 5px;left: 50%; margin-left: -1px;  width: 2px;height: 20px;background: #848484;}
+.content_course_arrow_to{display: block!important;clear: both; position: relative;  width: 2px;height: 20px;margin: 0 auto 10px; background: #848484;}
+.content_course_arrow_to:before{content: ''; position: absolute;z-index: 2;top: 15px;margin-left: -5px; left: 50%;width: 0;height: 0; border-style: solid;border-width: 8px 5px 0;border-color: #848484 transparent transparent;  }
 
 .content_course_arrow i{display: none;}
-/*.content_course_study_box{display: block;overflow: auto;margin: 30px -10px 0;}*/
 
 
 
